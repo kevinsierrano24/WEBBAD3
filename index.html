@@ -7,73 +7,102 @@
     <title>TheBookshelf</title>
     <link rel="icon" href="images/icon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <img src="images/Header.png" alt="">
-        </header>
-        <!-- menu bar -->
-        <div class="menu">
-            <a href="index.html" class="menu-item">Home</a>
-            <a href="isi.html" class="menu-item">Books</a>
-            <a href="About.html" class="menu-item">AudioBooks</a>
-            <a href="feedback.html" class="menu-item">Feedback</a>
-        </div>
-
-        <!-- content -->
-        <div class="top-content">
-            <h1 class="judul1">TheBookshelf</h1>
-            <h3 class="judul2">Welcome to TheBookshelf Books Store</h3>
-        </div>
-        
-        <div class="content">
-            <aside>
-                <img src="images/Buku1.jpg" alt="" id="home-img">
-                
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/I4vIDmxz5IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                  
-            </aside>
-
-            <div class="mid-content">
-
-                <!-- lorem100 + enter -->
-                <p>
-                    Welcome to TheBookshelf, a magical world filled with books! Get lost in a carefully picked collection that includes bestsellers and undiscovered gems while capturing the essence of compelling storytelling. Our online sanctuary honors the transformational power of books by transporting you to other worlds, stimulating mind, and arousing feelings. Join our active group of book lovers that like spirited debates and connecting over a common interest. Your journey through the world of books is easy and inclusive because to our user-friendly website, individualized recommendations, and dedication to accessibility. As you set out on a seemingly endless journey of knowledge, creativity, and pure literary happiness, let TheBookshelf serve as your guide. Welcome to the world of living words.
-                </p>
-
-                <p>
-                    But TheBookshelf is more than just a repository of books. It's a thriving community of book enthusiasts, a gathering place where bibliophiles unite to celebrate the written word. Join us in lively discussions, share your favorite reads, and connect with fellow book lovers from around the globe. We believe that books have the power to bring people together, to spark conversations, and to create lifelong connections.
-
-                </p>
-
-                <p>
-                    Our commitment to quality extends beyond our collection. We strive to ensure that every aspect of your experience with us is seamless and delightful. Our user-friendly website offers intuitive browsing, personalized recommendations, and convenient search features, allowing you to explore and discover new literary worlds effortlessly. We also understand the importance of accessibility, and we are dedicated to providing a platform that is inclusive and accommodating to readers of all backgrounds and abilities.
-                </p>
-
-                <p>Our favourite books:</p>
-                <ul>
-                    <li>Harry potter</li>
-                    <li>Laskar pelangi</li>
-                    <li>Rich dad poor dad</li>
-                    <li>Atomic Habits</li>
-                </ul>
-                <br>
-                <br>
-                <br>
-                <img src="images/sponsor.png" alt="" id="sponsor-img">
-
-            </div>
-
-        </div>
-
-        <!-- footer -->
-        <footer class="footer">
-            <p class="copyright">Copyright &copy; 2023 by Eri hadianto</p>
-
-        </footer>
-
+    <header>
+        <img src="images/Header.png" alt="">
+    </header>
+    <!-- menu bar -->
+    <div class="menu">
+        <a href="index.html" class="menu-item">Home</a>
+        <a href="isi.html" class="menu-item">Books</a>
+        <a href="About.html" class="menu-item">AudioBooks</a>
+        <a href="feedback.html" class="menu-item">Feedback</a>
     </div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="images/gambar1.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="images/gambar2.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+
+  <img src="images/gambar3.png" style="width:100%">
+  
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<div class="PB">
+    <h1>Popular books</h1>
+</div>
+
+<div class="PB-container">
+ <!-- product 1 -->
+ <div class="product">
+    <img src="Images/Buku1.jpg" alt="" class="product-img">
+
+    <div class="desc">
+        <p>The Midnight Library</p>
+        <p>Price: Rp700.000,00</p>
+        <p>Rating: 5/5</p>
+    </div>
+
+</div>
+ <!-- product 2 -->
+ <div class="product">
+    <img src="Images/Buku2.jpg" alt="" class="product-img">
+
+    <div class="desc">
+        <p>Project Hail Mary</p>
+        <p>Price: Rp800.000,00</p>
+        <p>Rating: 4/5</p>
+    </div>
+
+</div>
+ <!-- product 3 -->
+ <div class="product">
+    <img src="Images/Buku3.jpg" alt="" class="product-img">
+
+    <div class="desc">
+        <p>Where The Crawdad Sing</p>
+        <p>Price: Rp800.000,00</p>
+        <p>Rating: 4/5</p>
+    </div>
+
+</div>
+ <!-- product 4 -->
+ <div class="product">
+    <img src="Images/Buku4.jpg" alt="" class="product-img">
+
+    <div class="desc">
+        <p>Educated</p>
+        <p>Price: Rp900.000,00</p>
+        <p>Rating: 3.9/5</p>
+    </div>
+
+</div>
+</div>
     
 </body>
 </html>
